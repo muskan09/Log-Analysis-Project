@@ -22,8 +22,8 @@ SecondQuery_Output = dict()
 SecondQuery_Output["heading"] = 'Most popular authors are :- \n'
 
 ThirdQuery_Output = dict()
-ThirdQuery_Output["heading"] = """The days on which more than 1% of
-                                  requests lead to errors :- \n"""
+ThirdQuery_Output["heading"] = """The days on which more than 1% of """
+ThirdQuery_Output["headings"] = """requests lead to errors :- \n"""
 
 
 # Runs the query against the news db and fetches the results
@@ -62,7 +62,7 @@ def print_author_query_results(query_output):
 # Prints the output to the query
 # "On which days did more than 1% of requests lead to errors?"
 def print_error_query_results(query_output):
-    print (query_output["heading"])
+    print (query_output["heading"] + query_output["headings"])
     for data in query_output["outputs"]:
         print ('\t\t\tThe day ' + str(data[0]) +
                ' had ' + str(data[1]) + '% errors.')
