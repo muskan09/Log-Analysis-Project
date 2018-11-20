@@ -15,3 +15,6 @@ ThirdQuery="select * from l_view where "error">1"
 #Dictionary to store the output of queries
 FirstQuery_Output=dict()
 FirstQuery_Output["title"]="Top 3 articles are \n"
+
+SecondQuery_Output=dict()
+SecondQuery_Output["title"]="Most popular authors are \n"
