@@ -12,3 +12,6 @@ SecondQuery="select authors.name,sum(ar_view.my_views) as my_views from ar_view,
 #Assignment 3. On which days did more than 1% of requests lead to errors?
 ThirdQuery="select * from l_view where "error">1"
 
+#Dictionary to store the output of queries
+FirstQuery_Output=dict()
+FirstQuery_Output["title"]="Top 3 articles are \n"
