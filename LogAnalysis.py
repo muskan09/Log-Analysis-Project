@@ -18,3 +18,8 @@ FirstQuery_Output["title"]="Top 3 articles are \n"
 
 SecondQuery_Output=dict()
 SecondQuery_Output["title"]="Most popular authors are \n"
+
+ThirdQuery_Output=dict()
+ThirdQuery_Output["title"]="Most popular authors are \n"
+
+
