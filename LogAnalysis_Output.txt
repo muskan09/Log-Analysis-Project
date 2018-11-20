@@ -1,4 +1,4 @@
-vagrant@vagrant:/vagrant/LogAnalysis$ python LogAnalysis.py 
+vagrant@vagrant:/vagrant/LogAnalysis$  python LogAnalysis.py 
 Top 3 articles are :- 
 
 			Article "Candidate is jerk, alleges rival" has 338647 views.
@@ -10,6 +10,6 @@ Most popular authors are :-
 			Author "Rudolf von Treppenwitz" has 423457 views.
 			Author "Anonymous Contributor" has 170098 views.
 			Author "Markoff Chaney" has 84557 views.
-The days on which more than 1% of requests lead to errors:- 
+The days on which more than 1% of requests lead to errors :- 
 
 			The day 2016-07-17 had 2.26% errors.
